@@ -20,6 +20,9 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="${mvc.basePath}/mvc/show">Peoples</a></li>
 				</ul>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="${mvc.basePath}/rol/show">Rol</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>

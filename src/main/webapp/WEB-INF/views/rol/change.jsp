@@ -9,7 +9,7 @@
     <title>MVC 1.0 DEMO</title>
 </head>
 <body>
-<jsp:include page="/templates/menu.jsp"></jsp:include>
+
 <div class="container">
     <c:if test="${error.errors.length() != 0}">
     <div class="row">
@@ -20,7 +20,7 @@
     </c:if>
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
-            <form action="${mvc.basePath}/mvc/update" method="post">
+            <form action="${mvc.basePath}/rol/update" method="post">
                 <h2>Change Registration</h2>
                 <div class="form-group">
                 

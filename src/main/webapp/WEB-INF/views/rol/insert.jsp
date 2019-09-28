@@ -9,7 +9,7 @@
         <title>MVC 1.0 DEMO</title>
     </head>
     <body>
-<jsp:include page="/templates/menu.jsp"></jsp:include>
+
         <div class="container">
             <c:if test="${error.errors.length() != 0}">
                 <div class="row">
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-4 col-md-offset-4">
                     <form action="add" method="post">
-                        <h2>New register</h2>
+                        <h2>NUEVO ROL</h2>
                         <div class="form-group">
                             <label for="name">Name:</label>
                             <input id="name" name="name" class="form-control" autofocus value="${person.name}">
